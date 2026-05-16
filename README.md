@@ -1,45 +1,51 @@
+<div align="center">
+
 # 🛡️ Arsalan - أداة اختبار اختراق الشبكات اللاسلكية
 
-![Banner](screenshots/banner.png)
+<img src="screenshots/arsalan.png" alt="Arsalan Banner" width="600">
 
-## 📖 الوصف
-**Arsalan** هي أداة متكاملة لاختبار اختراق الشبكات اللاسلكية وتجميع المعلومات، تجمع بين أقوى الأدوات في واجهة عربية سهلة الاستخدام.
+**أداة متكاملة بوجهة عربية لاختبار اختراق الشبكات اللاسلكية وتجميع المعلومات**
 
-## ✨ المميزات
-- 🎯 **واجهة عربية** بالكامل
-- 📡 **إنشاء شبكات وهمية** لاختبار الأمان
-- 🛡️ **هجمات احترافية** مع تجنب أنظمة IDS
-- 📻 **هجوم الفصل** (Deauthentication Attack)
-- 🚫 **هجوم حجب المصادقة**
-- 🔍 **عرض الشبكات** ومعلومات MAC Address
-- 🕵️ **أداة OSINT** للبحث في وسائل التواصل
-  - البحث عن المستخدمين
-  - البحث عن أرقام الواتساب
-  - البحث الجماعي من ملف
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Linux-red.svg)](https://www.linux.org/)
 
-## 🖼️ لقطات الشاشة
+</div>
 
-### القائمة الرئيسية
-![Main Menu](screenshots/main.png)
+---
 
-### أداة OSINT
-![OSINT](screenshots/osint.png)
+## 📖 نبذة عن الأداة
 
-## 🛠️ المتطلبات
+**Arsalan** هي أداة متكاملة تجمع بين أقوى أدوات اختبار الاختراق في واجهة عربية سهلة الاستخدام. صممت خصيصاً لمختبرين الاختراق والباحثين في مجال أمن المعلومات.
 
-| المتطلب | الوصف |
-|---------|--------|
-| Python 3.6+ | لغة البرمجة |
-| Aircrack-ng | اختبار الشبكات |
-| MDK4 | هجمات الشبكات |
-| Tookie-osint | البحث الاستخباراتي |
-| Linux | نظام التشغيل |
+---
 
-## ⚙️ التثبيت
+## ✨ المميزات الرئيسية
 
-### الطريقة التلقائية (موصى بها)
-```bash
-git clone https://github.com/username/arsalan.git
-cd arsalan
-chmod +x install.sh
-sudo ./install.sh
+| الميزة | الوصف |
+|--------|--------|
+| 🎯 **واجهة عربية** | واجهة مستخدم باللغة العربية بالكامل |
+| 📡 **شبكات وهمية** | إنشاء شبكات WiFi وهمية لاختبار الأمان |
+| 🛡️ **تجنب IDS** | هجمات احترافية مع تجنب أنظمة كشف التسلل |
+| 📻 **هجوم الفصل** | Deauthentication Attack مع تبديل القنوات |
+| 🚫 **حجب المصادقة** | Authentication Denial-Of-Service Attack |
+| 🔍 **مسح الشبكات** | عرض الشبكات المتاحة مع معلومات MAC Address |
+| 🕵️ **أداة OSINT** | بحث استخباراتي في وسائل التواصل الاجتماعي |
+
+---
+
+## 🖼️ لقطات من الأداة
+
+### 🏠 القائمة الرئيسية
+<div align="center">
+<img src="screenshots/arsalan.png" alt="القائمة الرئيسية" width="500">
+</div>
+
+### ⚡ أثناء التنفيذ
+<div align="center">
+<img src="screenshots/arsalan2.png" alt="تنفيذ الأداة" width="500">
+</div>
+
+---
+
+## 🛠️ المتطلبات الأساسية
