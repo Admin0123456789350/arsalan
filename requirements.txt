@@ -1,0 +1,4 @@
+aircrack-ng
+mdk4
+python3
+git
